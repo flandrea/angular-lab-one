@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+.todo {
+    font-family: "Open Sans";
+    font-weight: 300;
+    background-color: white;
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    Box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.add {
+    text-align: center;
+    margin: 10px;
+    padding-top: 3px;
+    border-radius: 5px;
+    background: #ff1493;
+    color: white;
+    border-style: none;
+    Box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    width: calc(100% - 20px);
+    height: 24px;
+    font: 300 16px "Open Sans";
+}
+li {
+    margin-left: -12px;
+    font: 300 14px 'Open Sans';
+}
+ol {
+    margin-top: 10px;
+}
+h1 {
+    margin: 10px;
+    font-weight: 300;
+}
+p {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.addToDo {
+    width: calc(100% - 20px);
+    margin: 0px 10px;
+    border-radius: 5px;
+    border-style: none;
+    Box-shadow: 0px 0px 1px 0px gray;
+    font: 300 18px "Open Sans";
+}
+.filter {
+    width: calc(100% - 20px);
+    margin: 0px 10px;
+    border-radius: 5px;
+    border-style: none;
+    Box-shadow: 0px 0px 2px 0px gray;
+    font: 300 18px "Open Sans";
+}
+.completed {
+    border-radius: 5px;
+    color: #ff69b4;
+    background-color: white;
+    border-color: #ff69b4;
+}
+.delete {
+    float: right;
+    margin-right: 8px;
+    border: none;
+    background-color: white;
+    color: #bbb;
+}
+div {
+    width: calc(100% - 20px);
+    margin: 0px 10px;
+}

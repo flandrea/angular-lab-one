@@ -1,0 +1,16 @@
+<section class="todo">
+    <h1>TODO List</h1>
+        <p>A place to store your todos</p>
+        <input class="filter" type ="text" [(ngModel)]="filter" placeholder="Filter your to-dos">
+        <ol>
+            <li *ngFor = "let item of getFilteredResults(); index as i">
+                <button class="completed" *ngIf="!item.completed" (click)="completeTask(item)">Completed</button>
+                <span [ngClass]="{tasks: item.completed}">
+                {{item.task}}
+                </span>
+                <button class="delete" (click)="removeTask(i)">X</button>
+            </li>
+        </ol>
+        <input class="addToDo" [(ngModel)]="addToDo" placeholder="Add your to-do" /><br>
+        <button class="add" (click)="addTask()">Add</button>
+</section>
